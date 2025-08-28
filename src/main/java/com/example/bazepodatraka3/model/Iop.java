@@ -1,13 +1,11 @@
 package com.example.bazepodatraka3.model;
 
-public class Iop {
-    //--IOP(DelovodniBroj, IdUčenika)
-    //CREATE TABLE iop (
-    //    delovodni_broj INT PRIMARY KEY,
-    //    id_ucenika INT,
-    //    FOREIGN KEY (id_ucenika) REFERENCES ucenik(id) ON DELETE CASCADE
-    //);
+import lombok.Builder;
+import lombok.Data;
 
+@Builder
+@Data
+public class Iop {
     private Long delovodniBroj;
-    private Ucenik ucenik;
+    private Long ucenikId;
 }

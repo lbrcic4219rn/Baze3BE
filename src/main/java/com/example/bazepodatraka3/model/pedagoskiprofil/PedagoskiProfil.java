@@ -10,4 +10,5 @@ import java.util.Date;
 public class PedagoskiProfil {
     private PedagoskiProfilId pedagoskiProfilId;
     private Date datumIzrade;
+    //particionisanje
 }

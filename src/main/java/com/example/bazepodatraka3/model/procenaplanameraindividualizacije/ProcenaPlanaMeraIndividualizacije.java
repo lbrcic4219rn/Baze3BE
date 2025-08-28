@@ -8,5 +8,5 @@ import lombok.Data;
 @Builder
 public class ProcenaPlanaMeraIndividualizacije {
     private ProcenaPlanaMeraIndividualizacijeId id;
-    private VrstaPodrske vrstaPodrske;
+    private Long vrstaPodrskeId;
 }

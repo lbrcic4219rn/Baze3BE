@@ -1,11 +1,11 @@
 package com.example.bazepodatraka3.model.vrednovanjeaktivnostiplana;
 
-import com.example.bazepodatraka3.model.aktivnostplana.AktivnostPlanaId;
+import lombok.Builder;
+import lombok.Data;
 
-import java.util.Date;
-
+@Data
+@Builder
 public class VrednovanjeAktivnostiPlana {
-    private AktivnostPlanaId aktivnostPlanaId;
-    private Long idStepenaUspesnosti;
-    private Date datumProvere;
+    private VrednovanjeAktivnostiPlanaId id;
+    private String stepenUspesnosti;
 }
